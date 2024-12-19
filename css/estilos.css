@@ -1,0 +1,170 @@
+
+.bg-cereza{
+    background-image: radial-gradient(circle, #9b9b9b, #a89faa, #bda0b2, #d6a0af, #eca2a2);  ;
+}
+.fa-cart-shopping{
+    font-size: 2em;
+    color: white;
+    margin: 10px
+}
+.btn-primary{
+    color: white;
+    background-color: #341111;
+    margin-left:685px;
+    
+}
+.btn-primary:hover{
+    color: white;
+    background-color: #1c0909;
+}
+.carousel-item{
+    height: 20vh;
+}
+.carousel-item img{
+    height: 100;
+    object-fit:cover;
+}
+.nav-item{
+    font-size: 20px;
+    margin: 10px;
+}
+
+body{
+    background-image: radial-gradient(circle, #9b9b9b, #a89faa, #bda0b2, #d6a0af, #eca2a2);
+    
+}
+.footer{
+    padding-top: 60px;
+    background-image: radial-gradient(circle, #9b9b9b, #a89faa, #bda0b2, #d6a0af, #eca2a2);
+    font-size: 10px;
+    .logo{
+        width: 100px;
+    }
+    nav{
+        ul{
+            list-style: none;
+            a{
+                text-decoration: none;
+                color: white;
+                font-size: 1.5em;
+            }
+        }
+        .fa-instagram, .fa-x-twitter,.fa-facebook{
+            font-size: 3em;
+
+        }
+    }
+    .fa-whatsapp{
+        font-size: 5em;
+        color: rgb(66, 161,44);
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+    }
+    p{
+        font-size: 1.5em;
+    }
+}
+.productosDestacados {
+    text-align: center;
+    padding: 20px 0;
+    background-image: radial-gradient(circle, #9b9b9b, #a89faa, #bda0b2, #d6a0af, #eca2a2);
+    color: white;
+}
+
+.productosDestacados h2 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.productosDestacados a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #e6005c;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.productosDestacados a:hover {
+    background-color: #ffd1e8;
+}
+
+.product-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.product-item {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: calc(25% - 20px); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    transition: transform 0.3s ease;
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.product-item h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.product-item h4 {
+    margin: 5px 0;
+    color: #e6005c;
+    font-size: 1.1rem;
+}
+
+.add-to-cart {
+    margin-top: auto;
+    padding: 10px 15px;
+    background-color: #e6005c;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart:hover {
+    background-color: #c4004f;
+}
+
+.product-item:hover {
+    transform: scale(1.05);
+}
+.header{
+    background-image: radial-gradient(circle, #9b9b9b, #a89faa, #bda0b2, #d6a0af, #eca2a2);
+    z-index: 1000;
+    font-size: 10px;
+    position: sticky;
+    top: 0;
+}
+.video{
+    width: 45vh;
+    object-fit: cover;
+}
+.card{
+    background-image: radial-gradient(circle, #9b9b9b, #a89faa, #bda0b2, #d6a0af, #eca2a2);  ;
+}

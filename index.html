@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CherryRed</title>
+        <script src="https://kit.fontawesome.com/8ccaf04b7f.js" crossorigin="anonymous"></script>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/estilos.css">
+    <title>CherryRed</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-cereza">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/cereza.png" alt="Logo" width="80px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end w-100">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./pages/productos.html">Productos</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                        <li class="listaItem"><a class="linksHeader" href="./pages/carrito.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+            </nav>
+            
+    </header>
+    <main>
+        
+        <section>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/chockerprueba.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-block">
+                    <h5>Chockers Trendy</h5>
+                    <p>Todos los chockers tendencia del momento</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/aritosprueba.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-block">
+                    <h5>Aritos Trendy</h5>
+                    <p>Todos los aritos tendencia del momento.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/collar5prueba.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-block">
+                    <h5>Collares Trendy</h5>
+                    <p>Todos los collares tendencia del momento.</p>
+                    </div>
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <section class="productosDestacados">
+            <h2>#1 tendencias</h2>
+            <a href="./pages/productos.html">PONETE A LA MODA</a>
+            <hr>
+        </section>
+        <section class="container-fluid d-flex justify-content-evenly">
+            <div class="inline">
+                <video src="./assets/portada.mp4" autoplay muted loop></video>
+            </div>
+            <div class=inline>
+                <video src="./assets/video1.mp4" autoplay muted loop></video>
+            </div>
+            <div class="inline">
+                <video src="./assets/video2.mp4" autoplay muted loop></video>
+            </div>
+            </section>
+    </main>
+    <hr>
+    <footer class="footer d-flex justify-content-evenly ">
+        <a href="#">
+            <img class="logo" src="./assets/cereza.png" alt="logo tienda de accesorios">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="./pages/galeria.html">Productos</a></li>
+                <li><a href="./pages/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <nav>
+            <ul>
+                <li><a href="">Sobre Nosotros</a></li>
+                <li><a href="">Politicas de Privacidad</a></li>
+                <li><a href="">Terminos y Condiciones</a></li>
+            </ul>
+        </nav>
+        <nav>
+            <ul>
+                <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-x-twitter"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+        </nav>
+        <div>
+            <form action="">
+                <input type="email" placeholder="Tu correo electronico" id="emailSus" name="emailSus">
+                <input type="submit" value="Suscribirse">
+            </form>
+        </div>
+            <address>
+                <p>Direccion italia 52,Lomas de Zamora,Buenos aires</p>
+                <p>Telefono (33)123-4567</p>
+                <p>Correo electronico: cherryred@trendy.com</p>
+            </address>
+    
+        <div><a href="" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+
+        <p>2024 CherryRed | Todos los derechos reservados</p>
+
+    </footer>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html> 
